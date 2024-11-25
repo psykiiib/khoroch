@@ -1,0 +1,174 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    max-width: 990px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+  }
+  .title-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    background: #db3434; 
+    /* ea6a47 */
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+  
+  .logo {
+    width: 80px; /* Adjust the width of the logo */
+    height: 70px; /* Adjust the height of the logo */
+    margin-right: 15px; /* Adjust as needed */
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-container h1 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 2px;
+  }
+  .text-container h4 {
+    color: #cccccc;
+    font-size: 15px;
+    margin-top: 2px;
+  }
+  .text-container {
+  display: flex;
+  flex-direction: column;
+}
+  .form-container {
+    width: fit-content;
+    flex: 1;
+    padding-right: 10px; /* Adjust as needed */
+  }
+  
+  .table-container {
+    flex: 1;
+    padding-left: 10px; /* Adjust as needed */
+  }
+  
+  .expense-table {
+    width: 100%; /* Set to 100% to expand to the container width */
+    min-width: 675px; /* Adjust the minimum width as needed */
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .expense-form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  button {
+    background-color: #db3434;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffb400;
+  }
+  
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  th {
+    background-color: #db3434;
+    color: #fff;
+  }
+  
+  .savings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+  
+  .savings-container h1 {
+    color: #333;
+  }
+  
+  .savings-container .savings-buttons {
+    display: flex;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .savings-container button {
+    margin: 0 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #db3434;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-content: left;
+  }
+  
+  .savings-container button:hover {
+    background-color: #ffb400;
+  }
+
+  .total-expense-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .total-expense-container h2 {
+    color: #333;
+  }
+  
